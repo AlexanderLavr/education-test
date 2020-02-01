@@ -1,0 +1,114 @@
+{
+    "questions":[
+      {
+        "id": 1,
+        "type": "input",
+        "questions": "Самя длинная река в мире?",
+        "answer": "Амазонка"
+      },
+      {
+        "id": 2,
+        "type": "radio",
+        "questions": "Самое высокое дерево в Австралии баобаб?",
+        "answer": "Нет",
+        "answerOptions": [
+          {
+            "id": 1,
+            "type": "radio",
+            "value": "Нет",
+            "text": "Нет"
+          },
+          {
+            "id": 2,
+            "type": "radio",
+            "value": "Да",
+            "text": "Да"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "checkbox",
+        "questions": "Периоды Мезозойской эры?",
+        "answer": ["Юрский", "Триасовый"],
+        "answerOptions": [
+          {
+            "id": 1,
+            "type": "checkbox",
+            "value": "Юрский",
+            "text": "Юрский"
+          },
+          {
+            "id": 2,
+            "type": "checkbox",
+            "value": "Триасовый",
+            "text": "Триасовый"
+          },
+          {
+            "id": 3,
+            "type": "checkbox",
+            "value": "Графитовый",
+            "text": "Графитовый"
+          },
+          {
+            "id": 4,
+            "type": "checkbox",
+            "value": "Девонский",
+            "text": "Девонский"
+          }
+        ]
+      },  
+      {
+        "id": 4,
+        "type": "checkbox",
+        "questions": "Отрасли не производственной сферы?",
+        "answer": ["наука", "образование"],
+        "answerOptions": [
+          {
+            "id": 1,
+            "type": "checkbox",
+            "value": "наука",
+            "text": "наука"
+          },
+          {
+            "id": 2,
+            "type": "checkbox",
+            "value": "животноводство",
+            "text": "животноводство"
+          },
+          {
+            "id": 3,
+            "type": "checkbox",
+            "value": "образование",
+            "text": "образование"
+          },
+          {
+            "id": 4,
+            "type": "checkbox",
+            "value": "метталлургия",
+            "text": "метталлургия"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "select",
+        "questions": "Какая страна Европы имеет выход к Мировому океану?",
+        "answer": "Ирландия",
+        "answerOptions": [
+          {
+            "value": "Албания",
+            "text": "Албания"
+          },
+          {
+            "value": "Ирландия",
+            "text": "Ирландия"
+          },
+          {
+            "value": "Австрия",
+            "text": "Австрия"
+          }
+        ]
+      }
+    ]
+  }

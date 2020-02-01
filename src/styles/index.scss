@@ -1,0 +1,19 @@
+@import './share.scss';
+
+@import './home.scss';
+@import './question.scss';
+@import './result.scss';
+
+
+*{
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3{
+  margin: 0;
+}
+
+

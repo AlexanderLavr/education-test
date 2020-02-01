@@ -1,0 +1,21 @@
+h1.error{
+    text-align: center;
+    color: red;
+    margin-top: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 2px 2px #cccccc;
+    border-radius: 5px;
+    background: #eaeaea;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.button-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
